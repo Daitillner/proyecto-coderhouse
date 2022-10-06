@@ -1,3 +1,35 @@
 h1 {
-    color: red;
+    color: rgb(44, 11, 11);
+}
+h2 {
+
+    background-color: black;
+} 
+
+nav {
+  ul {
+      list-style: none;
+      li {
+        padding: 15px;
+        display: inline-block;
+        a {
+            text-decoration: none;
+            font-size: 2rem;
+            color: rosybrown;
+        }
+      }
+}
+}
+
+.tarjeta {
+    width: 300px;
+    height: 250px;
+    background-color: darkgrey;
+    & __img{
+    width: 100%;
+}
+&__ title {
+    font-size: 2rem;
+} 
+   
 }
